@@ -15,7 +15,7 @@ namespace ClearMapperLibrary
 
         TDestination Map<TSource, TDestination>(TSource source)
             where TSource : class
-            where TDestination : class;
+            where TDestination : class, new();
 
     }
 }
