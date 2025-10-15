@@ -26,8 +26,11 @@ jobs:
       - name: Run tests
         run: dotnet test --no-build --configuration Release
 
-      - name: Pack NuGet package
-        run: dotnet pack --configuration Release --no-build --output ./nupkg
+      - name: Pack First NuGet package
+        run: dotnet pack ./ClearMapper/ClearMapper.csproj --configuration Release --no-build --output ./nupkg
+
+      - name: Pack Second NuGet package
+        run: dotnet pack ./ClearMapper.DependencyInjection/ClearMapper.DependencyInjection.csproj --configuration Release --no-build --output ./nupkg
 
       - name: Publish to NuGet.org
         run: dotnet nuget push "nupkg/*.nupkg" --api-key ${{ secrets.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json
