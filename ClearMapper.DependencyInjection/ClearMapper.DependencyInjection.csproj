@@ -8,12 +8,6 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
-		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<IncludeSymbols>false</IncludeSymbols>
-		<IncludeSource>false</IncludeSource>
-	</PropertyGroup>
-
-	<PropertyGroup>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
@@ -28,5 +22,20 @@
 	<ItemGroup>
 		<ProjectReference Include="..\ClearMapper\ClearMapper.csproj" />
 	</ItemGroup>
+
+	<PropertyGroup>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<IncludeSymbols>false</IncludeSymbols>
+		<IncludeSource>false</IncludeSource>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<Authors>IMustafa Zeynali</Authors>
+		<Company>IMustafa Zeynali</Company>
+	</PropertyGroup>
 
 </Project>
