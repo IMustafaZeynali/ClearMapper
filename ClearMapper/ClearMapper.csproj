@@ -19,4 +19,8 @@
 		<IncludeSource>false</IncludeSource>
 		<IncludeSymbols>false</IncludeSymbols>
 	</PropertyGroup>
+
+	<PropertyGroup>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+	</PropertyGroup>
 </Project>
