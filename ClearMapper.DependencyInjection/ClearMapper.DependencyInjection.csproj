@@ -33,6 +33,10 @@
 		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
 	</PropertyGroup>
 
+	<ItemGroup>
+		<None Include="..\LICENSE" Pack="true" PackagePath="\" />
+	</ItemGroup>
+
 	<PropertyGroup>
 		<Authors>IMustafa Zeynali</Authors>
 		<Company>IMustafa Zeynali</Company>
