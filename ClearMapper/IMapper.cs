@@ -9,6 +9,10 @@ namespace ClearMapperLibrary
             where TSource : class
             where TDestination : class;
 
+        List<TDestination> Map<TSource, TDestination>(List<TSource> source)
+            where TSource : class
+            where TDestination : class;
+
         IQueryable<TDestination> Map<TSource, TDestination>(IQueryable<TSource> source)
             where TSource : class
             where TDestination : class;

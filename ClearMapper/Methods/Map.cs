@@ -18,6 +18,17 @@ namespace ClearMapperLibrary
 
         }
 
+        public List<TDestination> Map<TSource, TDestination>(List<TSource> source)
+            where TSource : class
+            where TDestination : class
+        {
+
+            var result = this.Map<TSource, TDestination>(source.AsEnumerable());
+
+            return result.ToList();
+
+        }
+
         public IQueryable<TDestination> Map<TSource, TDestination>(IQueryable<TSource> source)
              where TSource : class
              where TDestination : class
