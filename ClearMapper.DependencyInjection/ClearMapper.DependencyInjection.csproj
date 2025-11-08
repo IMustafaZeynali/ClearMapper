@@ -8,6 +8,12 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<IncludeSymbols>false</IncludeSymbols>
+		<IncludeSource>false</IncludeSource>
+	</PropertyGroup>
+
+	<PropertyGroup>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
