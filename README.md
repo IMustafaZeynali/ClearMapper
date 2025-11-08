@@ -1,6 +1,6 @@
 # ClearMapper :)
-ClearMapper is a package for map in c#.
-<br />
+ClearMapper is a lightweight, high-performance object-to-object mapper for .NET projects. It simplifies mapping between objects with minimal configuration and supports complex scenarios.
+
 # features:
 
 1. map from all of IEnumerable typr to another IEnumerable type with better performance and spped.
