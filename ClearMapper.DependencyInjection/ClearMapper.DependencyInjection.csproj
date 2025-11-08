@@ -11,6 +11,7 @@
 	</PropertyGroup>
 
 	<PropertyGroup>
+		<PackageId>ClearMapper.DependencyInjection</PackageId>
 		<Description>
 			ClearMapper is a lightweight, high-performance object-to-object mapper for .NET projects. It simplifies mapping between objects with minimal configuration and supports complex scenarios.
 		</Description>
