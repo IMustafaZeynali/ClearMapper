@@ -8,6 +8,7 @@
 		<IncludeSource>false</IncludeSource>
 		<IncludeSymbols>false</IncludeSymbols>
 		<DebugType>none</DebugType>
+		<Description>ClearMapper is a lightweight object mapper for .NET projects to simplify mapping between objects.</Description>
 	</PropertyGroup>
 
 	<PropertyGroup>
