@@ -1,15 +1,13 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
-namespace ClearMapperLibrary
+namespace ClearMapper
 {
-    public interface IMapper
+    [Obsolete("use IMapper instead of IClearMapper", false)]
+    public interface IClearMapper
     {
         IEnumerable<TDestination> Map<TSource, TDestination>(IEnumerable<TSource> source)
-            where TSource : class
-            where TDestination : class;
-
-        List<TDestination> Map<TSource, TDestination>(List<TSource> source)
             where TSource : class
             where TDestination : class;
 
