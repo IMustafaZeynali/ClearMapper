@@ -100,5 +100,9 @@ public class MyClass
 }
 ```
 
+🐞 Found a bug?  
+Please open an issue on GitHub:
+https://github.com/IMustafaZeynali/ClearMapper/issues
+
 don't forget to share ClearMapper with your friends.
 thanks :)
